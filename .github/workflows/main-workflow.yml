@@ -13,4 +13,4 @@ jobs:
       run: gcc -Wall -Wextra -o testchecker *.c
       
     - name: run
-      run: ./testchecker;
+      run: ./testchecker
